@@ -5,6 +5,7 @@ import dash_html_components as html
 import pandas as pd
 import plotly.graph_objs as go
 from secrete import db_password
+import psycopg2
 
 
 # external JavaScript files
