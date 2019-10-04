@@ -31,8 +31,11 @@ external_stylesheets = [
 ]
 
 
-app = dash.Dash(external_stylesheets=external_stylesheets,
+app = dash.Dash(__name__,external_stylesheets=external_stylesheets,
                 external_scripts=external_scripts)
+
+app.scripts.config.serve_locally = True
+app.css.config.serve_locally = True
 
 
 host = 'ec2-3-229-236-236.compute-1.amazonaws.com'
