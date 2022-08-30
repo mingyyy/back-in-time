@@ -10,7 +10,7 @@ Jinja2==2.10.1
 jsonpatch==1.10
 jsonpointer==1.9
 MarkupSafe==0.23
-mod-wsgi==4.6.7
+mod-wsgi==4.9.3
 numpy==1.17.2
 oauthlib==1.0.3
 pandas==0.25.1
